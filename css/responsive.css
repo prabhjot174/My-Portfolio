@@ -1,0 +1,132 @@
+/*Media Queries to make responsive website*/
+@media screen and (max-width: 400px) {
+
+	body {
+		font-size: 14px;
+	}
+
+	.logo {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 600px) {
+
+	.footer {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.inner_footer {
+		margin: auto;
+	}
+
+	.logos {
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 900px) {
+
+	.innerContent {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.caption {
+		text-align: center;
+	}
+
+	.project {
+		width: 100%;
+	}
+
+	.inner_header {
+		width: 100%;
+		text-align: center;
+	}
+
+	.navbar {
+		width: 100%;
+	}
+
+	.navList {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.navItem {
+		width: 33%;
+		text-align: center;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.figcaptions{
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
+@media screen and (min-width: 901px) and (max-width: 1250px) {
+
+	.innerContent {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.project {
+		width: 50%;
+	}
+
+	.figcaptions {
+		align-self: center;
+		margin: auto;
+		text-align: center
+	}
+
+}
+
+@media screen and (min-width: 1251px) {
+
+	.project {
+		margin: auto;
+	}
+
+	.figcaptions {
+		display: flex;
+		flex-flow: column;
+		margin: auto;
+		margin-top: 10px;
+		align-items: center;
+	}
+
+	.first {
+		order: 1;
+	}
+
+	.second {
+		order: 2;
+	}
+
+	.third {
+		order: 3;
+	}
+
+	.fourth {
+		order: 4;
+	}
+
+	.fifth {
+		order: 5;
+	}
+
+	.sixth {
+		order: 6;
+	}
+}
